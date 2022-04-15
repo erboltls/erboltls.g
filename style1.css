@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*унеерсалные стили  */
+.centr {
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 1440px;
+    height: 2200px;
+    background: #F7F7F7;
+}
+
+/* верхняя часть шапки сайта */
+.header {
+    height: 565px;
+}
+
+.div {
+    height: 500px;
+    background-image: url(./img/IMAGE1.png);
+    background-size: cover;
+}
+
+.topHeader {
+    height: 74px;
+    display: flex;
+    align-items: center;
+}
+
+.innerTop {
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 380px;
+}
+
+.btn {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.textLogo {
+    color: #fff;
+    font-size: 26px;
+}
+
+/* /центральная часть хидера/ */
+.centerHeader {
+    height: 426px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerCenterHeader {
+    height: 159px;
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.headerTitle {
+    font-size: 51px;
+    letter-spacing: 3px;
+    /* line-height: 51px; */
+}
+
+.headerText {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.63);
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.viewPost {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #DD783F;
+    border-radius: 3px;
+    width: 167px;
+    height: 44px;
+}
+
+.bottomHeader {
+    background: #fff;
+    color: #768088;
+
+}
+
+.bottomLinks {
+    list-style: none;
+    display: flex;
+    width: 960px;
+    height: 46px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/* центральная часть сайта */
+.text {
+    font-size: 30px;
+    text-align: center;
+    color: #2E2E2E;
+    margin-top: 50px;
+    font-family: Oxygen;
+}
+
+.postImg {
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.innerPost {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* background-color: red; */
+}
+
+.innerPostImg {
+    width: 460px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* background-color: red; */
+    padding: 25px;
+}
+
+.innerPostImg:nth-child(1) {
+    background-image: url(./img/IMAGE5.png);
+}
+
+.innerPostImg:nth-child(2) {
+    background-image: url(./img/IMAGE6.png);
+}
+
+.postTitle,
+.postText {
+    margin-bottom: 20px;
+}
+
+.postTitle {
+    color: #fff;
+    font-size: 27px;
+}
+
+.postText {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.postInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.nameInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name {
+    margin-left: 11px;
+}
+
+
+.block {
+    margin-left: 250px;
+    display: flex;
+    padding-top: 35px;
+    width: 940px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.imgPost {
+    width: 296px;
+    height: 291px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+    /* margin-left: 250px; */
+    background-color: #fff;
+}
+
+/* 1 */
+.imgPos {
+    width: 296px;
+    height: 150px;
+
+}
+
+.textPar {
+    padding: 25px;
+}
+
+.parag {
+    color: #101315;
+    font-size: 16px;
+    /* padding: 25px; */
+}
+
+.textPost {
+    color: #7A7A7A;
+    font-size: 13px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.img {
+    margin-left: 25px;
+    /* background-color: #FCFCFC; */
+    display: flex;
+}
+
+.infoData {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-left: 50px;
+    font-size: 12px;
+    color: #999999;
+
+}
+
+.name {
+    color: #768088;
+}
+
+/* ПОДВАЛ сайта*/
+
+footer {
+    background-image: url(./img/IMAGE12.png);
+}
+
+.poisk {
+    width: 940px;
+    margin-top: 90px;
+}
+/* .text{
+    color: #2e2e2e;
+    letter-spacing: 2px;
+    font-size: 27px;
+    padding: 15px;
+    border-bottom: 1px solid #dedede;
+} */
+
+.textParagraf {
+    display: flex;
+    height: 289px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.titlePost {
+    font-size: 25px;
+    margin-bottom: 16px;
+    color: #EFEFEF;
+    /* color: #2e2e2e; */
+    /* letter-spacing: 2px; */
+    /* font-size: 27px; */
+    padding: 15px;
+    border-bottom: 3px solid #dedede;
+}
+
+.form {
+    height: 50px;
+    display: flex;
+}
+
+#email{
+    width: 375px;
+    height: inherit;
+    padding-left: 30px;
+    outline: none;
+    
+}
+#email:focus{
+    outline: none;
+    outline-offset: none;
+}
+.submit{
+
+    width: 125px;
+    height: inherit;
+    background-color: rgba(255, 255, 255, 0.28);
+    border-radius: 0px 3px 3px 0px;
+    color: #F8F8F8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+
+.backFon{
+    background-color:  rgba(35, 47, 56, 0.6);
+    border-radius: 0px;
+    
+}
+
+/* 
+.poisk{
+    background-color: #4D565D;
+    justify-content: center;
+    margin-top: 40px;
+    font-family: system-ui;
+}
+.links1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left: 940px;
+    width: 400px;
+    list-style: none;
+}
+.textParagraf{
+    background-image:url(./img/IMAGE12.png);
+     
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    }
+
+.parag1{
+
+    font-size: 40px;
+    font-family: Oxygen;
+    color:#EFEFEF;
+   
+}
+.textPost1{
+    color: #817F83;
+    font-size: 30px;
+    background-color: #FFFFFF;
+    width: 500px;
+    height: 50px;
+    /* margin-top: 30px;
+    margin-left: 200px; 
+    display: flex;
+}
+.textPost2{
+    font-size: 30px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    background-color: gray;
+
+}
